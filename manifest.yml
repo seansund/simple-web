@@ -1,5 +1,5 @@
 applications:
 - name: seansund-node-hello-world
   memory: 128M
-  buildpack: https://github.com/cloudfoundry-community/nginx-buildpack.git
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   host: seansund-simple-website
